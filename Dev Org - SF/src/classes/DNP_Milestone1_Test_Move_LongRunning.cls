@@ -1,3 +1,4 @@
+/*** Added this comment to test the branch StartingPoint fixes**/
 @istest
 private with sharing class DNP_Milestone1_Test_Move_LongRunning {
 
@@ -16,7 +17,7 @@ private with sharing class DNP_Milestone1_Test_Move_LongRunning {
 		pList.add( Milestone1_Test_Utility.sampleProject('Dst Project') ); 
 
 		insert pList;
-    	
+    	 
 		// Create top-level milestones
     	Milestone1_Project__c         srcProject = pList.get(0); 
     	Milestone1_Project__c         dstProject = pList.get(1);
